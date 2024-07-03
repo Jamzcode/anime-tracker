@@ -143,7 +143,8 @@ form input{
   appearance: none;
   outline: none;
   border: none;
-  background: white;
+  background: whitesmoke;
+  border: solid darkblue 2px;
 
   display: block;
   color: #888;
@@ -253,12 +254,16 @@ margin-bottom: 1.5rem;
 .anime h3{
   color: #888;
   font-size: 1.125rem;
+  align-content: center;
+  color: black;
 
 }
 
 .anime .episodes {
   margin-right: 1rem;
   color: #888;
+  align-content: center;
+  color: black;
 }
 
 .anime .button:first-of-type{
@@ -267,5 +272,14 @@ margin-bottom: 1.5rem;
 
 .anime .button:last-of-type{
   margin-right: 0rem;
+}
+
+.anime{
+  display: flex;
+  border: lightblue 3px solid;
+  border-radius: 20px;
+  padding: 15px;
+  background: lightgrey;
+
 }
 </style>
